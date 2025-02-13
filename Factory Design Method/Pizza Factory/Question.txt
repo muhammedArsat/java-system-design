@@ -1,0 +1,11 @@
+Task: Implement a Factory Method Pattern to create different types of pizzas. Your solution should include:
+
+An abstract Pizza class with a method prepare().
+
+Concrete classes for each type of pizza (e.g., CheesePizza, VeggiePizza, PepperoniPizza).
+
+A PizzaFactory interface with a method createPizza().
+
+Concrete factory classes for each type of pizza (e.g., CheesePizzaFactory, VeggiePizzaFactory, PepperoniPizzaFactory).
+
+A PizzaStore class that uses the factory to create and prepare pizzas.

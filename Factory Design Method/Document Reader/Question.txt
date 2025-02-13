@@ -1,0 +1,15 @@
+Scenario: You are developing a document reader application that can read different types of documents (e.g., PDF, Word, Text). Each document type has its own way of being read.
+
+
+Task: Implement a Factory Method Pattern to create different types of document readers. Your solution should include:
+
+
+An abstract DocumentReader class with a method read().
+
+Concrete classes for each type of document reader (e.g., PDFReader, WordReader, TextReader).
+
+A DocumentReaderFactory interface with a method createReader().
+
+Concrete factory classes for each type of document reader (e.g., PDFReaderFactory, WordReaderFactory, TextReaderFactory).
+
+A DocumentReaderApp class that uses the factory to create and use document readers.
